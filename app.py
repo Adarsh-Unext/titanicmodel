@@ -4,7 +4,7 @@ import pandas as pd
 
 model = joblib.load('titanic_model.pkl')
 
-st.title('Titanic Model Frontend')
+st.title('Titanic Model Frontend modified version 2')
 pcls = st.select_slider('Choose passenger class',[1,2,3])
 age = st.slider('Input Age', 0,100)
 sib = st.slider('Input Siblings', 0,10)
